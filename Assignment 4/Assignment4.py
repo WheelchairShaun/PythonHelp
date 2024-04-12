@@ -6,7 +6,7 @@ subtotal = 0
 # User can enter as many prices as needed, create a variable "price"
 # Using infinite while loop
 while True:
-    price = int(input("Enter the price of the items or enter -1 to end:"))
+    price = float(input("Enter the price of the items or enter -1 to end:"))
 
     # Check price for -1
     if (price == -1):
@@ -22,6 +22,6 @@ total = subtotal + tax
 # Print receipt
 print("                   Walmart Receipt")
 print('=' * 75)
-print("Subtotal:", ' ' * 30, "${:.2f}\n".format(subtotal))
-print("Tax:", ' ' * 35, "${:.2f}\n".format(tax))
-print("Total:", ' ' * 33, "${:.2f}\n".format(total))
+print("Subtotal:                              $", format(subtotal, '.2f'))
+print("Tax:                                   $", format(tax, '.2f'))
+print("Total:                                 $", format(total, '.2f'))

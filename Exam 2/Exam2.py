@@ -13,7 +13,7 @@ if (loanAmount < 50000 or loanAmount > 500000):
 # Ask user for years
 years = float(input("Enter how many years is the loan from 10 to 30: "))
 
-# Allow one more chance if loan amount is incorrect
+# Allow one more chance if years is incorrect
 if (years < 10 or years > 30):
     years = float(input("The years are incorrect. Enter how many years is the loan from 10 to 30: "))
     if (years < 10 or years > 30):
@@ -23,7 +23,7 @@ if (years < 10 or years > 30):
 # Ask user for interest
 interest = float(input("Enter the interest rate from 3 to 6 percent: "))
 
-# Allow one more chance if loan amount is incorrect
+# Allow one more chance if interest is incorrect
 if (interest < 3 or interest > 6):
     interest = float(input("The interest is incorrect. Enter the interest rate from 3 to 6 percent: "))
     if (interest < 3 or interest > 6):

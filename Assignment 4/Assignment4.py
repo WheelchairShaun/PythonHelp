@@ -21,7 +21,9 @@ total = subtotal + tax
 
 # Print receipt
 print("                   Walmart Receipt")
-print('=' * 75)
+print("============================================================")
 print("Subtotal:                              $", format(subtotal, '.2f'))
+print()
 print("Tax:                                   $", format(tax, '.2f'))
+print()
 print("Total:                                 $", format(total, '.2f'))

@@ -1,0 +1,12 @@
+Use a while loop with a control variable to find the largest number (user can enter as many numbers as they want, -1 is used to stop the entry).
+
+It should look like this:
+
+Enter a number (-1 is used to stop the program): 5
+Enter a number (-1 is used to stop the program): 8
+Enter a number (-1 is used to stop the program): 1
+Enter a number (-1 is used to stop the program): 7
+Enter a number (-1 is used to stop the program): 3
+Enter a number (-1 is used to stop the program): -1
+
+The largest number is 8

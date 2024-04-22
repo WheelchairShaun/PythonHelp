@@ -36,7 +36,6 @@ while(bulbasaur > 0 and squirtle > 0):
     bulbasaur = bulbasaur - damage
 
     round = round + 1
-
     print()
     input("Press Enter to continue...\n")
 
